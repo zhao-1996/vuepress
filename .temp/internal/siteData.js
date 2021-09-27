@@ -3,9 +3,17 @@
  */
 export const siteData = {
   "title": "如怀",
-  "description": "web前端技术博客,简洁至上,专注web前端学习与总结",
+  "description": "世界上如果有奇迹，那也只是努力的轨迹。",
   "base": "/vuepress/",
-  "headTags": [],
+  "headTags": [
+    [
+      "link",
+      {
+        "rel": "icon",
+        "href": "/vuepress/logo.png"
+      }
+    ]
+  ],
   "pages": [
     {
       "frontmatter": {},
