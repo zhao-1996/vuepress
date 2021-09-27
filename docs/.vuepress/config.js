@@ -20,7 +20,7 @@ module.exports = {
 	浏览器网页标签logo
 	*/
 	head: [
-		['link', { rel: 'icon', href: '/img/bg.jpg' }]
+		['link', { rel: 'icon', href: '/vuepress/public/img/bg.jpg' }]
 	],
 
 	/*
@@ -37,6 +37,6 @@ module.exports = {
 	打包输出目录，默认值: .vuepress/dist
 	*/
 	dest: 'dist',
-	
+
 
 }
