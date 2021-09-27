@@ -10,7 +10,7 @@ export const siteData = {
       "link",
       {
         "rel": "icon",
-        "href": "/vuepress/logo.png"
+        "href": "/vuepress/img/bg.jpg"
       }
     ]
   ],
