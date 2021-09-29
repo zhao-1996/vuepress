@@ -16,7 +16,7 @@ module.exports = {
 	/*
 	网站的描述，它将会以 <meta> 标签渲染到当前页面的 HTML 中。
 	*/
-	description: '世界上如果有奇迹，那也只是努力的轨迹。',
+	description: '散装代码',
 
 	/*
 	浏览器网页标签logo

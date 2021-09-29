@@ -3,7 +3,7 @@
  */
 export const siteData = {
   "title": "执青灯",
-  "description": "世界上如果有奇迹，那也只是努力的轨迹。",
+  "description": "散装代码",
   "base": "/vuepress/",
   "headTags": [
     [
@@ -16,7 +16,35 @@ export const siteData = {
   ],
   "pages": [
     {
-      "frontmatter": {},
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroImage": "/img/userImg.jpg",
+        "actionText": "萨瓦迪卡",
+        "actionLink": "/",
+        "tagline": "三味真火。",
+        "features": [
+          {
+            "title": "HTML",
+            "details": "JavaScript、ES6、Vue框架等前端技术",
+            "link": "/web/",
+            "imgUrl": "/img/web.png"
+          },
+          {
+            "title": "CSS",
+            "details": "html(5)/css(3)，前端页面相关技术",
+            "link": "/ui/",
+            "imgUrl": "/img/ui.png"
+          },
+          {
+            "title": "JavaScript",
+            "details": "技术文档、教程、技巧、总结等文章",
+            "link": "/technology/",
+            "imgUrl": "/img/other.png"
+          }
+        ],
+        "footer": "个人记录博客"
+      },
       "regularPath": "/",
       "relativePath": "README.md",
       "key": "v-cb95862c",
@@ -25,14 +53,101 @@ export const siteData = {
     }
   ],
   "themeConfig": {
-    "navBar": [
+    "nav": [
       {
         "text": "首页",
         "link": "/"
+      },
+      {
+        "text": "HTML",
+        "link": "/",
+        "items": [
+          {
+            "text": "aaa",
+            "link": "bbb"
+          }
+        ]
+      },
+      {
+        "text": "CSS",
+        "link": "/",
+        "items": [
+          {
+            "text": "aaa",
+            "link": "bbb"
+          }
+        ]
+      },
+      {
+        "text": "Javascript",
+        "link": "/",
+        "items": [
+          {
+            "text": "aaa",
+            "link": "bbb"
+          }
+        ]
+      },
+      {
+        "text": "前端框架",
+        "link": "/",
+        "items": [
+          {
+            "text": "vue",
+            "link": "bbb",
+            "items": [
+              {
+                "text": "model",
+                "link": "bbb"
+              }
+            ]
+          },
+          {
+            "text": "react",
+            "link": "bbb",
+            "items": [
+              {
+                "text": "model",
+                "link": "bbb"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "工具",
+        "link": "/",
+        "items": [
+          {
+            "text": "aaa",
+            "link": "bbb"
+          }
+        ]
+      },
+      {
+        "text": "插件",
+        "link": "/",
+        "items": [
+          {
+            "text": "aaa",
+            "link": "bbb"
+          }
+        ]
+      },
+      {
+        "text": "鸡汤",
+        "link": "/",
+        "items": [
+          {
+            "text": "aaa",
+            "link": "bbb"
+          }
+        ]
       }
     ],
     "sidebarDepth": 3,
     "logo": "/img/userImg.jpg",
+    "repo": "https://github.com/zhao-1996",
     "searchMaxSuggestions": 10,
     "lastUpdated": "上次更新",
     "docsDir": "docs",
