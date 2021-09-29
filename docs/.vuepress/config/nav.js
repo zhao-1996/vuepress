@@ -1,30 +1,29 @@
 // nav
 module.exports = [
-	{ text: '首页', link: '/' },
 	{
 		text: 'HTML',
-		link: '/',
+		link: '/html/',
 		items: [
 			{ text: 'aaa', link: 'bbb' }
 		]
 	},
 	{
 		text: 'CSS',
-		link: '/',
+		link: '/css/',
 		items: [
-			{ text: 'aaa', link: 'bbb' }
+			{ text: 'aaa', link: '/css/bbb' }
 		]
 	},
 	{
-		text: 'Javascript',
-		link: '/',
+		text: 'JavasScript',
+		link: '/js/',
 		items: [
 			{ text: 'aaa', link: 'bbb' }
 		]
 	},
 	{
 		text: '前端框架',
-		link: '/',
+		link: '/web/',
 		items: [
 			{
 				text: 'vue',
@@ -50,21 +49,21 @@ module.exports = [
 	},
 	{
 		text: '工具',
-		link: '/',
+		link: '/tool/',
 		items: [
 			{ text: 'aaa', link: 'bbb' }
 		]
 	},
 	{
 		text: '插件',
-		link: '/',
+		link: '/plugin/',
 		items: [
 			{ text: 'aaa', link: 'bbb' }
 		]
 	},
 	{
-		text: '鸡汤',
-		link: '/',
+		text: '更多',
+		link: '/more/',
 		items: [
 			{ text: 'aaa', link: 'bbb' }
 		]

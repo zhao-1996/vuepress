@@ -17,5 +17,9 @@ features: # 可选的
     details: 技术文档、教程、技巧、总结等文章
     link: /technology/
     imgUrl: /img/other.png
-footer: 个人记录博客
+footer: 时光向前，我亦一往无前。
 ---
+
+```js
+const a = '定海神针'
+```

@@ -21,6 +21,22 @@ export const routes = [
     redirect: "/"
   },
   {
+    name: "v-299e39ac",
+    path: "/guide/bb.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-299e39ac").then(next)
+    },
+  },
+  {
+    name: "v-22598b6a",
+    path: "/guide/aa.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-22598b6a").then(next)
+    },
+  },
+  {
     path: '*',
     component: GlobalLayout
   }

@@ -1,5 +1,5 @@
 const themeConfig = require('./config/themeConfig.js');
-
+const plugins = require('./config/plugins.js');
 module.exports = {
 	/*
 	GitHub pages，如果你想将你的网站部署到 https://foo.github.io/bar/，
@@ -11,7 +11,7 @@ module.exports = {
 	网站的标题
 	它将会被用作所有页面标题的前缀，同时，默认主题下，它将显示在导航栏（navbar）上。
 	*/
-	title: '执青灯', // 博客标题
+	title: '散装代码', // 博客标题
 
 	/*
 	网站的描述，它将会以 <meta> 标签渲染到当前页面的 HTML 中。
@@ -40,5 +40,13 @@ module.exports = {
 	*/
 	dest: 'dist',
 
-	themeConfig
+	themeConfig,
+
+	plugins,
+
+	extraWatchFiles: [
+		'./config/nav.js', // 使用相对路径
+		'./config/sidebar.js', // 使用相对路径
+		'./config/themeConfig.js', // 使用相对路径
+	]
 }
