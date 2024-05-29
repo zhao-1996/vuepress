@@ -1,0 +1,12 @@
+import{_ as s,c as i,o as a,a3 as n}from"./chunks/framework.BvVpiGod.js";const _=JSON.parse('{"title":"vite配置全局scss变量","description":"","frontmatter":{},"headers":[],"relativePath":"vue/vue3/常用技巧/3.vite配置scss.md","filePath":"vue/vue3/常用技巧/3.vite配置scss.md","lastUpdated":1652184936000}'),t={name:"vue/vue3/常用技巧/3.vite配置scss.md"},e=n(`<h1 id="vite配置全局scss变量" tabindex="-1">vite配置全局scss变量 <a class="header-anchor" href="#vite配置全局scss变量" aria-label="Permalink to &quot;vite配置全局scss变量&quot;">​</a></h1><p>vite.config.ts</p><div class="language-ts vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">ts</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">export</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;"> default</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;"> defineConfig</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">({</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  base: </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&#39;./&#39;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  css: {</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    preprocessorOptions: {</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">      // 添加公共样式</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">      scss: {</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">        additionalData: </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&#39;@import &quot;./src/style/style.scss&quot;;&#39;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">      }</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    }</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  },</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">})</span></span></code></pre></div>`,3),p=[e];function l(h,k,c,r,d,E){return a(),i("div",null,p)}const g=s(t,[["render",l]]);export{_ as __pageData,g as default};
